@@ -40,11 +40,16 @@ h1 {
   width: 100%;
 }
 .video-container video{
-  height: 96vh;
+  height: 100%;
+  width: auto;
+  /* vertical-align: middle; */
+  /* width: 100%; */
+  /* height: 100%; */
 }
 .video-content {
   position: absolute;
   top:10%;
+  left: 10%;
   color: white;
   height: inherit;
 
@@ -113,7 +118,9 @@ li {
   border: white 1px solid;
   border-radius: 5px;
   color: black;
-  opacity: 0.3;
+}
+.border{
+  border: springgreen 1px solid;
 }
 a {
   color: white;
@@ -140,10 +147,9 @@ a:hover {
   color: black !important;
   text-decoration: none !important;
 }
-#twitter {
+.twitter {
   border-radius: 50%;
   border: white solid;
   background-color: white;
   opacity: 0.3;
-  margin-left: 20px;
 } 
